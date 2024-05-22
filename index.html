@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <img src="assets/image-corazones.svg" alt="" >
+            <h1>Alura<span>Geek</span></h1>
+
+        </div>
+  
+    </header>
+    <main>
+        <div class="container-main">
+            <section class="mis-productos">
+                <h1>
+                    Mis productos
+                </h1>
+                <div class="producto-container" data-product>
+                    <!-- <div class="card">
+                        <img src="./assets/producto1.png" class="img-producto" />
+                        <div class="card-container--info">
+                          <p>Nombre</p>
+                          <div class="card-container--value">
+                            <p>$ 00.00</p>
+                            <button class="delete-button" data-id="${}">
+                                <img src="./assets/trashIcon.png" />
+                            </button>
+                          </div>
+                        </div>
+                    </div>         
+                </div> -->
+            </section>
+
+            <section class="agregar-producto">
+                <h1>
+                    Agregar Producto:
+                </h1>
+                <!-- formulario -->
+                <form action="" class="form-agregar-producto" data-form>
+                    <input type="text" data-name class="input-form input-form-nombre" placeholder="nombre..."> 
+
+                    <input type="text" data-price class="input-form input-form-precio" placeholder="precio...">
+                     
+                    <input type="text" data-image class="input-form input-form-nombre" placeholder="imagen..."> 
+                    <div class="button-container">
+                        <input
+                        value="Enviar"
+                        class="button-form button-form-enviar"
+                        id="enviar"
+                        data-boton-enviar type="submit"
+                        />
+                        <input
+                            value="Limpiar"
+                            class="button-form button-form-limpiar"
+                            id="enviar"
+                            data-boton-limpiar type="button"
+                        />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="container-footer-logo">
+                <img src="assets/image-corazones.svg" alt="" >
+                <h1>Alura<span>Geek</span></h1>
+            </div>
+            <div class="info-personal">
+                <p>
+                    DESARROLLADO POR CESAR CAAL MORALES
+                </p>
+                <p>
+                    PROYECTO PERSONAL - 2024
+                </p>
+            </div>
+        </div>
+
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+    <!-- <script src="server.js"></script> -->
+</body>
+</html>

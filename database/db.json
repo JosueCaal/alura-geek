@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "name": "Batman",
+      "price": "50",
+      "image": "https://tools.toywiz.com/_images/_products/mcdcmultianimbat.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Super-man",
+      "price": "50",
+      "image": "https://img.fruugo.com/product/4/00/135122004_max.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Spider-man",
+      "price": "50",
+      "image": "https://th.bing.com/th/id/OIP.cLJNUiqeATXR6aHBvw6YAQHaG2?rs=1&pid=ImgDetMain",
+      "id": "3"
+    }
+  ]
+}
